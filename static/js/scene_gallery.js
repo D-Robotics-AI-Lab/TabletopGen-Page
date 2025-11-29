@@ -21,7 +21,7 @@ const BASE_URL = "https://huggingface.co/xinjue1/TabletopGen-GLB-PageDemo/resolv
 function generateScenes(ids) {
     return ids.map((id, index) => ({
         id: index+1,
-        glb: `${BASE_URL}scene_${id}.glb`,
+        glb: `static/models/scene_${id}.glb`,
         img: `static/images/models/scene_${id}.png`
     }));
 }
@@ -302,5 +302,6 @@ function animate() {
     composer.render();
 
 }
+
 
 
