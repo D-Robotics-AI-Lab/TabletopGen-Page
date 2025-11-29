@@ -12,7 +12,7 @@ import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
 // ================= 配置区域 =================
 const HDR_PATH = 'static/textures/environment.hdr';
 
-const SCENE_IDS = [10,32,24,160,51,141,52,74,161,72,55,70,63,95,36,17,164,60,];
+const SCENE_IDS = [10,32,24,161,51,141,52,74,72,160,55,70,63,95,36,17,164,60,];
 
 // GitHub Release 基础路径
 const BASE_URL = "https://huggingface.co/xinjue1/TabletopGen-GLB-PageDemo/resolve/main/";
@@ -302,4 +302,5 @@ function animate() {
     composer.render();
 
 }
+
 
